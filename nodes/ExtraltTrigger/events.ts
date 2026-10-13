@@ -3,6 +3,12 @@ import type { INodePropertyOptions } from 'n8n-workflow';
 /** The event types an endpoint can subscribe to, as the Extralt API names them. */
 export const EVENT_OPTIONS: INodePropertyOptions[] = [
 	{
+		name: 'Enrichment Changes',
+		value: 'enrichment.changes',
+		description:
+			'An Enrichment found price, stock or Listing changes, counted in the changes field of its data',
+	},
+	{
 		name: 'Enrichment Completed',
 		value: 'enrichment.completed',
 		description: 'An Enrichment normalized every Capture of its Run or Import',
