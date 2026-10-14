@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/extralt-ai/n8n-nodes-extralt/compare/n8n-nodes-extralt-v0.1.0...n8n-nodes-extralt-v0.1.1) (2026-10-14)
+
+
+### Bug Fixes
+
+* use the Extralt icon on a black circle for the node and credential ([#9](https://github.com/extralt-ai/n8n-nodes-extralt/issues/9)) ([ebb3648](https://github.com/extralt-ai/n8n-nodes-extralt/commit/ebb36483fbd18cc3fc8bbcf90ae686084a1102a5))
+
 ## 0.1.0 (2026-10-14)
 
 
