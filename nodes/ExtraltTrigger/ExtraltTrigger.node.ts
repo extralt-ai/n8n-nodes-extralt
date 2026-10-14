@@ -67,7 +67,7 @@ export class ExtraltTrigger implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Extralt Trigger',
 		name: 'extraltTrigger',
-		icon: { light: 'file:extralt.svg', dark: 'file:extralt.dark.svg' },
+		icon: 'file:extralt.svg',
 		group: ['trigger'],
 		version: 1,
 		subtitle: '={{$parameter["events"].join(", ")}}',
