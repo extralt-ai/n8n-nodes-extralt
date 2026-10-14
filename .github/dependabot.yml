@@ -26,3 +26,12 @@ updates:
     groups:
       npm:
         patterns: ['*']
+    # @n8n/node-cli's lint rules break on TypeScript 7 and ESLint 10, and @types/node follows
+    # the oldest Node in engines. Raise these by hand when n8n's tooling supports them.
+    ignore:
+      - dependency-name: typescript
+        update-types: ['version-update:semver-major']
+      - dependency-name: eslint
+        update-types: ['version-update:semver-major']
+      - dependency-name: '@types/node'
+        update-types: ['version-update:semver-major']
