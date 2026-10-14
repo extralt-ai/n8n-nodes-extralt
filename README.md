@@ -40,6 +40,9 @@ Each execution receives one event:
   its current state.
 - Events are delivered at least once and in no guaranteed order. Use `id` to skip an event you
   have already handled.
+- `enrichment.changes` sends one summary per Enrichment, never one event per change: its `data`
+  is the Enrichment with a `changes` object counting price decreases and increases, stock changes,
+  Listings added and removed, and new lows. It is not sent when nothing changed.
 - A test event sent from the dashboard has the type `webhook.test` and always starts the workflow,
   whatever events you chose.
 - The node checks every request's [Standard Webhooks](https://www.standardwebhooks.com/) signature
