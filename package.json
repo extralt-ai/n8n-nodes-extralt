@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-extralt",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "n8n nodes for Extralt: start workflows when Robots, Runs, Enrichments and Imports finish",
 	"license": "MIT",
 	"homepage": "https://extralt.com",
