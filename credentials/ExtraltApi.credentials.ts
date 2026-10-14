@@ -11,7 +11,7 @@ export class ExtraltApi implements ICredentialType {
 
 	displayName = 'Extralt API';
 
-	icon: Icon = { light: 'file:extralt.svg', dark: 'file:extralt.dark.svg' };
+	icon: Icon = 'file:extralt.svg';
 
 	documentationUrl =
 		'https://github.com/extralt-ai/n8n-nodes-extralt?tab=readme-ov-file#credentials';
